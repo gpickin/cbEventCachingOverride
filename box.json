@@ -1,53 +1,57 @@
 {
-  "author": "Gavin Pickin - Ortus Solutions",
-  "bugs": "https://github.com/gpickin/cbEventCachingOverride/issues",
-  "changelog": "",
-  "contributors": [],
-  "dependencies": {},
-  "description": "This module allows you to set an override for ColdBox Event caching to allow dynamic cache values, like in this module, midnight.",
-  "devDependencies": {},
-  "documentation": "https://github.com/gpickin/cbEventCachingOverride",
-  "homepage": "https://github.com/gpickin/cbEventCachingOverride",
-  "ignore": ["**/.*", "/test/", "/tests/"],
-  "installPaths": {},
-  "location": "ForgeboxStorage",
-  "name": "cbEventCachingOverride - ColdBox Event Caching Override",
-  "private": false,
-  "projectURL": "https://github.com/gpickin/cbEventCachingOverride",
-  "reinitWatchDelay": 500,
-  "reinitWatchDirectory": "",
-  "reinitWatchPaths": "",
-  "repository": {
-    "type": "",
-    "URL": ""
-  },
-  "scripts": {
-    "postVersion": "package set location='gpickin/cbEventCachingOverride#v`package version`'",
-    "onRelease": "publish",
-    "postPublish": "!git push && git push --tags"
-  },
-  "shortDescription": "A sweet package",
-  "slug": "cbEventCachingOverride",
-  "testbox": {
-    "bundles": "",
-    "directory": "tests.specs",
-    "excludes": "",
-    "labels": "",
-    "options": {},
-    "recurse": true,
-    "reporter": "",
-    "runner": [
-      {
-        "default": ""
-      }
+    "author":"Gavin Pickin - Ortus Solutions",
+    "bugs":"https://github.com/gpickin/cbEventCachingOverride/issues",
+    "changelog":"",
+    "contributors":[],
+    "dependencies":{},
+    "description":"This module allows you to set an override for ColdBox Event caching to allow dynamic cache values, like in this module, midnight.",
+    "devDependencies":{},
+    "documentation":"https://github.com/gpickin/cbEventCachingOverride",
+    "homepage":"https://github.com/gpickin/cbEventCachingOverride",
+    "ignore":[
+        "**/.*",
+        "/test/",
+        "/tests/"
     ],
-    "testBundles": "",
-    "testSpecs": "",
-    "testSuites": "",
-    "verbose": true,
-    "watchDelay": 500,
-    "watchPaths": "**.cfc"
-  },
-  "type": "modules",
-  "version": "1.0.0"
+    "installPaths":{},
+    "location":"gpickin/cbEventCachingOverride#v1.1.0",
+    "name":"cbEventCachingOverride - ColdBox Event Caching Override",
+    "private":false,
+    "projectURL":"https://github.com/gpickin/cbEventCachingOverride",
+    "reinitWatchDelay":500,
+    "reinitWatchDirectory":"",
+    "reinitWatchPaths":"",
+    "repository":{
+        "type":"",
+        "URL":""
+    },
+    "scripts":{
+        "postVersion":"package set location='gpickin/cbEventCachingOverride#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push && git push --tags"
+    },
+    "shortDescription":"A sweet package",
+    "slug":"cbEventCachingOverride",
+    "testbox":{
+        "bundles":"",
+        "directory":"tests.specs",
+        "excludes":"",
+        "labels":"",
+        "options":{},
+        "recurse":true,
+        "reporter":"",
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "testBundles":"",
+        "testSpecs":"",
+        "testSuites":"",
+        "verbose":true,
+        "watchDelay":500,
+        "watchPaths":"**.cfc"
+    },
+    "type":"modules",
+    "version":"1.1.0"
 }
